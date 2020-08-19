@@ -1,0 +1,20 @@
+# /BW_PUBLISH/20200811_funkineue/ #
+#################################################
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PROJECT FILES I DON'T WANT ON GIT #
+#####################################
+20200811_funkineue\ Project/Backup/
+20200811_funkineue\ Project/M4L/zOLD/
+20200811_funkineue\ Project/zOLD/
+20200811_funkineue\ Project/Samples/Recorded/
+VIDEO/

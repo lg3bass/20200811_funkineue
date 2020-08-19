@@ -1,0 +1,16 @@
+outside_1	param01
+inside_1	param02
+arclen_1	param03
+			param04
+outside_2	param05
+inside_2	param06
+arclen_2	param07
+			param08
+outside_3	param09
+inside_3	param10
+arclen_3	param11
+			param12
+outside_4	param13
+inside_4	param14
+arclen_4	param15
+			param16
