@@ -6,16 +6,6 @@
 
 ## CLEANUP/publish
 
-[x] Record video
-	- youtube
-	- gif for twitter
-[ ]	gather project files and devices.
-[ ] create .gitignore, 
-	- add old files, move old files to zOLD
-	- add /Backup dir.
-[ ] remove old ISF files
-[ ] delete old audio session files/recordings to clear up space.
-[ ] final PDF score
 [ ] Create entry on birdhouseparty.com
 	-- update readme.
 	-- publish files.
@@ -111,28 +101,30 @@ I started this project in the Grid view.  I was able to fine tune the colors and
 
 
 ## Tips 2 Remember
+
 1. Assuming the grid is in 16th, you want to draw the step in the automation. This allows you to scrub in a clip(sort of). 
 1. Leave a measure at the beginning to reset automation. 
 2. Tool slows down when in focus.  close the adsr-gridwindow for better performance.
 
 
 ## Enhancements
-[ ]	PITA to load the json every time.  Need to have this load automatically
-[ ] Also sucks to have to load a shader and click qmetro and mode.  This operation should be consolidated.
-[ ]	When you playback cold in arangement view the automation doesn't trigger till values change. I have to let it play through to the next scene to see the correct automation.
-[ ] Separate the ADSR grid from the ISF.  This way you can use different rendering (ISF, JXS, VMM).
-[ ] Master track viewer should default to 720x405 automatically.  Activating this should be a one button process.  However if I have to move this to a second screen maybe I do need 2 buttons.
+
+	[ ]	PITA to load the json every time.  Need to have this load automatically
+	[ ] Also sucks to have to load a shader and click qmetro and mode.  This operation should be consolidated.
+	[ ]	When you playback cold in arangement view the automation doesn't trigger till values change. I have to let it play through to the next scene to see the correct automation.
+	[ ] Separate the ADSR grid from the ISF.  This way you can use different rendering (ISF, JXS, VMM).
+	[ ] Master track viewer should default to 720x405 automatically.  Activating this should be a one button process.  However if I have to move this to a second screen maybe I do need 2 buttons.
 
 
 ## Bugs
 
-[ ]	adsr-gridwindow too big,  Consolidate all the save/load buttons.
-[ ] shader sometimes doesn't display when you mess with the device(on|off|fileManagement)
-[ ] When you change the tempo in girdwindow it messes with the sample tempo. 
-	- Changed the tempo to 160 in gridwindow.  Sample shows as 160 in edit view on track.  Must be connected somehow.
-[ ] Noticed that if you run a song in arrangement view a long time, over and over, CPU resources get consumed.  Especially if you are doing a lot of automation work. Not sure why this is happening but eventually it causes the audio to stutter.  Simply closing the project and reloading frees up CPU resources
-[ ] After "load" button background doesn't match grid width.
-[ ]	I think the "ADSR-ISF_1.368 > adsrScene" automation is messing this up. Perhaps scene 1 is trying to load
+	[ ]	adsr-gridwindow too big,  Consolidate all the save/load buttons.
+	[ ] shader sometimes doesn't display when you mess with the device(on|off|fileManagement)
+	[ ] When you change the tempo in girdwindow it messes with the sample tempo. 
+		- Changed the tempo to 160 in gridwindow.  Sample shows as 160 in edit view on track.  Must be connected somehow.
+	[ ] Noticed that if you run a song in arrangement view a long time, over and over, CPU resources get consumed.  Especially if you are doing a lot of automation work. Not sure why this is happening but eventually it causes the audio to stutter.  Simply closing the project and reloading frees up CPU resources
+	[ ] After "load" button background doesn't match grid width.
+	[ ]	I think the "ADSR-ISF_1.368 > adsrScene" automation is messing this up. Perhaps scene 1 is trying to load
 
 
 
