@@ -4,11 +4,7 @@
 
 [YouTube](https://www.youtube.com/watch?v=VHcZMNqLWe4)
 
-## CLEANUP/publish
-
-[ ] Create entry on birdhouseparty.com
-	-- update readme.
-	-- publish files.
+[Birdhouseparty.com](https://www.birdhouseparty.com/post/20200811_funkineue/funkineue/)
 	
 ## Description 
 
